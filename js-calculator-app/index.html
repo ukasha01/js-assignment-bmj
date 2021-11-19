@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div>
+            <input id="inp" type="text" disabled class="large-button">
+        </div>
+        <div>
+            <button class="large-button" onclick="deletall()">C</button>
+        </div>
+        <div>
+            <button class="large-button" onclick="delLast()">Delet</button>
+
+        </div>
+        <div class="sma-buttons">
+            <button onclick="allotval(1)">1</button>
+            <button onclick="allotval(2)">2</button>
+            <button onclick="allotval(3)">3</button>
+            <button onclick="allotval('+')">+</button>
+        </div>
+        <div class="sma-buttons">
+            <button onclick="allotval(4)">4</button>
+            <button onclick="allotval(5)">5</button>
+            <button onclick="allotval(6)">6</button>
+            <button onclick="allotval('-')">-</button>
+        </div>
+        <div class="sma-buttons">
+            <button onclick="allotval(7)">7</button>
+            <button onclick="allotval(8)">8</button>
+            <button onclick="allotval(9)">9</button>
+            <button onclick="allotval('/')">/</button>
+        </div>
+        <div class="sma-buttons">
+            <button onclick="allotval(0)">0</button>
+            <button onclick="allotval('*')">*</button>
+            <button onclick="allotval('5')">%</button>
+            <button class="color" onclick=" calculate()">=</button>
+        </div>
+
+    </div>
+
+</body>
+<script src="./app.js"></script>
+
+</html>

@@ -1,0 +1,36 @@
+.main {
+    width: 30%;
+    height: 500px;
+    margin: 20px auto;
+}
+
+
+
+.large-button {
+    width: 100%;
+    margin: 3px;
+}
+
+.sma-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sma-buttons button {
+    width: 30%;
+    margin: 3px;
+    border: none;
+}
+
+.color {
+    background-color: blue;
+    color: white;
+}
+
+.sma-buttons button:hover {
+    width: 30%;
+    margin: 3px;
+    border: none;
+    background-color: black;
+    color: white;
+}
